@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    footer{
+      background:black;
+      color:white;
+      bottom:0;
+      padding:15px;
+      text-align:center;
+      margin:300px 0px 0px 0px;
+     
+     
+    }
+    
+      ul{
+        list-style:none;
+        color:white;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-around;
+        
+        
+      }
+      ul li{
+        border:2px solid white;
+        border-radius:10%;
+        padding:10px;
+        margin:25px;
+       
+      }
+      ul li:hover{
+        background:blue;
+      }
+      @media screen and (min-width: 50em) {
+         header{
+          background-color:yellow;
+        }
+        
+      }
+      
+      header{
+        background:black;
+        opacity:0.8;
+        padding:20px;
+      }
+      section h1{
+        border:8px solid green;
+        box-shadow:6px 6px 6px 0.4 rgba();
+        padding:10px;
+        text-align:center;
+        font-size:70px;
+        display:inline-block;
+      }
+      section{
+        text-align:center;
+      }
+      button{
+        background:black;
+        color:white;
+        width:25%;
+        padding:30px;
+      }
+      .card {
+     border: 1px solid #ccc;
+     background-color: ivory;
+     color:black;
+     padding:25px;
+     margin:25px;
+    }
+    
+      
+    </style>
+  </head>
+  
+  <header>
+    <ul>
+      <li>home</li>
+      <li>about</li>
+      <li>contact</li>
+      <li>purchase</li>
+      <li>sign in</li>
+    </ul>
+    
+  </header>
+  
+  <section>
+    
+    <div><h1  id="cc" >hello world</h1></div>
+    
+    <button onclick="myNow();">Next</button>
+  </section>
+  <br><br>
+  
+  
+  
+  <div>
+  <footer>
+    <p>Thanks for visiting</p>
+    <section>
+      <div class="card">
+      <article>
+        <h2>Contact us</h2>
+        <pre>094466727
+        email:henokzena650@gmail.com</pre>
+      </article>
+      </div>
+      <div class="card">
+      <article>
+        <h2>products</h2>
+        <pre>
+          Car
+          bike
+          scooter
+        </pre>
+      </article>
+      </div>
+    </section>
+    
+    &copy;2023 Henok
+  </footer>
+  </div>
+  
+  <script>
+    function myNow(){
+      document.getElementById("cc").innerHTML="javascript";
+    }
+  </script>
+  
+</html>
+
